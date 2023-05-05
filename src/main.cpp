@@ -96,7 +96,11 @@ void setup()
 
 void loop()
 {
-      uart_mux.switchDevice(SIM800);
+      //uart_mux.switchDevice(SIM800);
+      pinMode(MUX_S0, OUTPUT);
+      pinMode(MUX_S1, OUTPUT);
+      digitalWrite(MUX_S0, 0);
+      digitalWrite(MUX_S1, 0);
       testSim800();
       while (1);
 }
