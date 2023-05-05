@@ -20,9 +20,8 @@ gps                         1    |   1
 
 
 HardwareSerial Serial2(PA3, PA2);
-HardwareSerial Serial3(PB11, PB10);
-PowerManager powerManager;
-Uart_multiplexer uart_mux;
+PowerManager* powerManager;
+Uart_multiplexer* uartMux;
 SIM800L *sim800l;
 Gpsneo* gps;
 
@@ -89,16 +88,18 @@ void setup()
 {
       Serial1.begin(115200);
       Serial2.begin(9600);
-      powerManager.diasble_5();
-      powerManager.disable_4();
+      powerManager = new PowerManager();
+      uartMux = new Uart_multiplexer();
+      powerManager->enable_5();
+      powerManager->enable_4();
       sim800l = new SIM800L((Stream *)&Serial2, GSM_RST, 200, 512, (Stream *)&Serial1);
 }
 
 void loop()
 {
-      uart_mux.switchDevice(SIM800);
+      uartMux->switchDevice(SDS011);
       testSim800();
-      while (1);
+      while (1){};
 }
 
 //  byte error, address;

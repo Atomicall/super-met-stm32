@@ -2,6 +2,7 @@
 
 Uart_multiplexer::Uart_multiplexer()
 {
+    initPins();
     switchDevice(SIM800);
 }
 
@@ -42,12 +43,14 @@ void Uart_multiplexer::switchDevice(CONNECTED_DEVICE switchTo)
 
     default:
     {
+        Serial.write("Fuck while: switch uart mux with device" + switchTo);
         break;
+    }
+
+    // delay?
     }
     digitalWrite(MUX_S0, s0);
     digitalWrite(MUX_S1, s1);
-    // delay?
-    }
 }
 
 void Uart_multiplexer::setBusy(bool state)

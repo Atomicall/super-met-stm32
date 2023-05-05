@@ -12,7 +12,7 @@
 	#define BUFFER_2 500
 	//#define DEBUG
 
-	class Gpsneo
+	class Gpsneo : public SoftwareSerial
 	{
 		void init (int baudrate);
 		bool checksum(char * string);
