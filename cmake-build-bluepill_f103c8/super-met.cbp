@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="super-met"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Production">
+				<Option working_dir="D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 Production"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPLATFORMIO=60106"/>
+					<Add option="-DSTM32F1"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add option="-DSTM32F1xx"/>
+					<Add option="-DARDUINO=10808"/>
+					<Add option="-DARDUINO_ARCH_STM32"/>
+					<Add option="-DARDUINO_BLUEPILL_F103C8"/>
+					<Add option="-DBOARD_NAME=&quot;BLUEPILL_F103C8&quot;"/>
+					<Add option="-DHAL_UART_MODULE_ENABLED"/>
+					<Add option="-DUSE_FULL_LL_DRIVER"/>
+					<Add option="-DVARIANT_H=&quot;variant_PILL_F103Cx.h&quot;"/>
+					<Add option="-DNDEBUG"/>
+					<Add directory="D:/Labs/8sem/stm32/super-met/include"/>
+					<Add directory="D:/Labs/8sem/stm32/super-met/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/Wire/src"/>
+					<Add directory="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/src"/>
+					<Add directory="D:/Labs/8sem/stm32/super-met/lib/GPS-neo-6m-master"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/SoftwareSerial/src"/>
+					<Add directory="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/avr"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/LL"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/OpenAMP"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/hid"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/cdc"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F1xx_HAL_Driver/Src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/STM32F1xx"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/open-amp/lib/include"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/libmetal/lib/include"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/virtual_driver"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-cmsis/CMSIS/Core/Include"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/gcc"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-cmsis/CMSIS/DSP/Include"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-cmsis/CMSIS/DSP/PrivateInclude"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/variants/STM32F1xx/F103C8T_F103CB(T-U)"/>
+					<Add directory="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master"/>
+					<Add directory="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/src"/>
+					<Add directory="D:/Labs/8sem/stm32/super-met/lib/SpiShiftRegisterChain-master/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/CMSIS_DSP/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/EEPROM/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/IWatchdog/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/Keyboard/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/Mouse/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/RGB_LED_TLC59731/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/SPI/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/Servo/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/SubGhz/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPLATFORMIO=60106"/>
+					<Add option="-DSTM32F1"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add option="-DSTM32F1xx"/>
+					<Add option="-DARDUINO=10808"/>
+					<Add option="-DARDUINO_ARCH_STM32"/>
+					<Add option="-DARDUINO_BLUEPILL_F103C8"/>
+					<Add option="-DBOARD_NAME=&quot;BLUEPILL_F103C8&quot;"/>
+					<Add option="-DHAL_UART_MODULE_ENABLED"/>
+					<Add option="-DUSE_FULL_LL_DRIVER"/>
+					<Add option="-DVARIANT_H=&quot;variant_PILL_F103Cx.h&quot;"/>
+					<Add option="-DNDEBUG"/>
+					<Add directory="D:/Labs/8sem/stm32/super-met/include"/>
+					<Add directory="D:/Labs/8sem/stm32/super-met/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/Wire/src"/>
+					<Add directory="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/src"/>
+					<Add directory="D:/Labs/8sem/stm32/super-met/lib/GPS-neo-6m-master"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/SoftwareSerial/src"/>
+					<Add directory="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/avr"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/LL"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/OpenAMP"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/hid"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/cdc"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F1xx_HAL_Driver/Src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/STM32F1xx"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/open-amp/lib/include"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/libmetal/lib/include"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/virtual_driver"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-cmsis/CMSIS/Core/Include"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/gcc"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-cmsis/CMSIS/DSP/Include"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-cmsis/CMSIS/DSP/PrivateInclude"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/variants/STM32F1xx/F103C8T_F103CB(T-U)"/>
+					<Add directory="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master"/>
+					<Add directory="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/src"/>
+					<Add directory="D:/Labs/8sem/stm32/super-met/lib/SpiShiftRegisterChain-master/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/CMSIS_DSP/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/EEPROM/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/IWatchdog/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/Keyboard/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/Mouse/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/RGB_LED_TLC59731/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/SPI/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/Servo/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/SubGhz/src"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="C:/Users/vlad/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/.editorconfig">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/.gitattributes">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/.github/workflows/Continuous-Integration.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/.piopm">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/AnalogRead_DigitalRead/AnalogRead_DigitalRead.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/Blink_AnalogRead/Blink_AnalogRead.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/CMSIS-RTOSv2/Blinky/Blinky.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/CMSIS-RTOSv2/Blinky/STM32FreeRTOSConfig_extra.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/CMSIS-RTOSv2/frBlink/STM32FreeRTOSConfig_extra.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/CMSIS-RTOSv2/frBlink/frBlink.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/frBlink/frBlink.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/frBlinkPrint/frBlinkPrint.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/frContextTime/frContextTime.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/frFifoDataLogger/frFifoDataLogger.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/frJitter/frJitter.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/frLiuLayland/frLiuLayland.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/CMSIS_RTOS/cmsis_os.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/CMSIS_RTOS/cmsis_os.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/CMSIS_RTOS_V2/cmsis_os.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/CMSIS_RTOS_V2/cmsis_os2.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/CMSIS_RTOS_V2/cmsis_os2.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/CMSIS_RTOS_V2/freertos_mpool.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/CMSIS_RTOS_V2/freertos_os2.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/Common/mpu_wrappers.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM0/port.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM0/portmacro.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/non_secure/port.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/non_secure/portasm.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/non_secure/portasm.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/non_secure/portmacro.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/secure/secure_context.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/secure/secure_context.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/secure/secure_context_port.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/secure/secure_heap.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/secure/secure_heap.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/secure/secure_init.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/secure/secure_init.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/secure/secure_port_macros.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23_NTZ/non_secure/port.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23_NTZ/non_secure/portasm.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23_NTZ/non_secure/portasm.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23_NTZ/non_secure/portmacro.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM3/port.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM3/portmacro.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/non_secure/port.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/non_secure/portasm.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/non_secure/portasm.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/non_secure/portmacro.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/secure/secure_context.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/secure/secure_context.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/secure/secure_context_port.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/secure/secure_heap.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/secure/secure_heap.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/secure/secure_init.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/secure/secure_init.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/secure/secure_port_macros.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33_NTZ/non_secure/port.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33_NTZ/non_secure/portmacro.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM3_MPU/port.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM3_MPU/portmacro.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM4F/port.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM4_MPU/port.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM4_MPU/portmacro.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM7/ReadMe.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM7/r0p1/port.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM7/r0p1/portmacro.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM7_MPU/ReadMe.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM7_MPU/r0p1/port.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM7_MPU/r0p1/portmacro.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/MemMang/ReadMe.url">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/MemMang/heap_1.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/MemMang/heap_2.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/MemMang/heap_3.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/MemMang/heap_4.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/MemMang/heap_5.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/MemMang/heap_useNewlib_ST.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/readme.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/History.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/croutine.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/event_groups.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/FreeRTOSConfig_template.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/atomic.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/croutine.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/event_groups.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/list.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/portable.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/projdefs.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/queue.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/semphr.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/stdint.readme">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/task.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/timers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/list.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/queue.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/readme.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/st_readme.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/stream_buffer.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/tasks.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/timers.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOSConfig.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOSConfig_Default.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/STM32FreeRTOS.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/STM32FreeRTOS.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/cmsis_os.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/cmsis_os.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/croutine.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/event_groups.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/freertos_mpool.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/freertos_os2.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/heap.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/list.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/message_buffer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/mpu_prototypes.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/mpu_wrappers.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/mpu_wrappers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/port.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/portasm.c">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/portasm.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/portmacro.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/queue.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/semphr.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/stack_macros.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/stream_buffer.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/task.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/timers.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/integrity.dat">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/.arduino-ci.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/.github/FUNDING.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/.github/workflows/arduino-lint.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/.github/workflows/arduino_test_runner.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/.github/workflows/jsoncheck.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/ADS1X15.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/ADS1X15.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/CHANGELOG.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_1114_four/ADS_1114_four.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_1114_two_continuous/ADS_1114_two_continuous.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_RP2040_WIRE1/.arduino-ci.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_RP2040_WIRE1/ADS_RP2040_WIRE1.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_async_16_channel/ADS_async_16_channel.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_async_8_channel/ADS_async_8_channel.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_async_differential/ADS_async_differential.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_continuous/ADS_continuous.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_continuous_3_channel/ADS_continuous_3_channel.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_continuous_4_channel/ADS_continuous_4_channel.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_continuous_8_channel/ADS_continuous_8_channel.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_continuous_differential/ADS_continuous_differential.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_differential/ADS_differential.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_high_speed_differential/ADS_high_speed_differential.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_minimum/ADS_minimum.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_performance/ADS_performance.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_pointerToFunction/.arduino-ci.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_pointerToFunction/ADS_pointerToFunction.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_read/ADS_read.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_read_RDY/ADS_read_RDY.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_read_async/ADS_read_async.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_read_async_rdy/ADS_read_async_rdy.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_read_comparator_1/ADS_read_comparator_1.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_setWireClock/ADS_setWireClock.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/test/unit_test_001.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/examples/BasicTest_HardwareSerial/BasicTest_HardwareSerial.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/examples/BasicTest_SoftSerial/BasicTest_SoftSerial.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/examples/BasicTest_SoftSerial/sketch.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/examples/HTTPS_GET_HardwareSerial/HTTPS_GET_HardwareSerial.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/examples/HTTPS_GET_SoftSerial/HTTPS_GET_SoftSerial.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/examples/HTTPS_POST_HardwareSerial/HTTPS_POST_HardwareSerial.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/examples/HTTPS_POST_SoftSerial/HTTPS_POST_SoftSerial.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/extras/SIM800 Series_AT Command Manual_V1.09.pdf">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/extras/SIM800 Series_IP_Application Note_V1.02.pdf">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/extras/SIM800 Series_SSL_Application Note_V1.00.pdf">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/src/SIM800L.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/src/SIM800L.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/GPS-neo-6m-master/Gpsneo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/GPS-neo-6m-master/Gpsneo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/GPS-neo-6m-master/examples/google/google.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/GPS-neo-6m-master/examples/minimumRecommended/minimumRecommended.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/GPS-neo-6m-master/examples/minimumRecommendedFull/minimumRecommendedFull.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/GPS-neo-6m-master/readme.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/.gitattributes">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/.vscode/arduino.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/.vscode/c_cpp_properties.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/LICENSE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/docs/Laser_Dust_Sensor_Control_Protocol_V1.3.pdf">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/examples/NovaSDS011/NovaSDS011.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/src/Commands.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/src/NovaSDS011.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/src/NovaSDS011.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/SpiShiftRegisterChain-master/.github/workflows/main.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/SpiShiftRegisterChain-master/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/SpiShiftRegisterChain-master/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/SpiShiftRegisterChain-master/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/SpiShiftRegisterChain-master/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/SpiShiftRegisterChain-master/license.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/SpiShiftRegisterChain-master/src/SpiShiftRegisterChain.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/SpiShiftRegisterChain-master/src/SpiShiftRegisterChain.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/src/PowerManager.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/src/main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/src/uart_mux.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

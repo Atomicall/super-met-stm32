@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="super-met"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Labs/8sem/stm32/super-met/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Production">
+				<Option working_dir="D:/Labs/8sem/stm32/super-met/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 Production"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="D:/Labs/8sem/stm32/super-met/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="D:/Labs/8sem/stm32/super-met/cmake-build-debug/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Labs/8sem/stm32/super-met/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="D:/Labs/8sem/stm32/super-met/cmake-build-debug/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Labs/8sem/stm32/super-met/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Labs/8sem/stm32/super-met/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Labs/8sem/stm32/super-met/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Labs/8sem/stm32/super-met/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/.arduino-ci.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/.github/FUNDING.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/.github/workflows/arduino-lint.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/.github/workflows/arduino_test_runner.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/.github/workflows/jsoncheck.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/ADS1X15.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/ADS1X15.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/CHANGELOG.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_1114_four/ADS_1114_four.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_1114_two_continuous/ADS_1114_two_continuous.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_RP2040_WIRE1/.arduino-ci.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_RP2040_WIRE1/ADS_RP2040_WIRE1.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_async_16_channel/ADS_async_16_channel.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_async_8_channel/ADS_async_8_channel.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_async_differential/ADS_async_differential.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_continuous/ADS_continuous.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_continuous_3_channel/ADS_continuous_3_channel.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_continuous_4_channel/ADS_continuous_4_channel.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_continuous_8_channel/ADS_continuous_8_channel.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_continuous_differential/ADS_continuous_differential.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_differential/ADS_differential.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_high_speed_differential/ADS_high_speed_differential.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_minimum/ADS_minimum.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_performance/ADS_performance.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_pointerToFunction/.arduino-ci.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_pointerToFunction/ADS_pointerToFunction.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_read/ADS_read.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_read_RDY/ADS_read_RDY.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_read_async/ADS_read_async.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_read_async_rdy/ADS_read_async_rdy.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_read_comparator_1/ADS_read_comparator_1.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/examples/ADS_setWireClock/ADS_setWireClock.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/library.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master/test/unit_test_001.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/examples/BasicTest_HardwareSerial/BasicTest_HardwareSerial.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/examples/BasicTest_SoftSerial/BasicTest_SoftSerial.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/examples/BasicTest_SoftSerial/sketch.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/examples/HTTPS_GET_HardwareSerial/HTTPS_GET_HardwareSerial.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/examples/HTTPS_GET_SoftSerial/HTTPS_GET_SoftSerial.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/examples/HTTPS_POST_HardwareSerial/HTTPS_POST_HardwareSerial.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/examples/HTTPS_POST_SoftSerial/HTTPS_POST_SoftSerial.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/extras/SIM800 Series_AT Command Manual_V1.09.pdf">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/extras/SIM800 Series_IP_Application Note_V1.02.pdf">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/extras/SIM800 Series_SSL_Application Note_V1.00.pdf">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/src/SIM800L.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/src/SIM800L.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/GPS-neo-6m-master/Gpsneo.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/GPS-neo-6m-master/Gpsneo.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/GPS-neo-6m-master/examples/google/google.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/GPS-neo-6m-master/examples/minimumRecommended/minimumRecommended.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/GPS-neo-6m-master/examples/minimumRecommendedFull/minimumRecommendedFull.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/GPS-neo-6m-master/readme.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/.gitattributes">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/.vscode/arduino.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/.vscode/c_cpp_properties.json">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/LICENSE.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/docs/Laser_Dust_Sensor_Control_Protocol_V1.3.pdf">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/examples/NovaSDS011/NovaSDS011.ino">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/src/Commands.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/src/NovaSDS011.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/src/NovaSDS011.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/SpiShiftRegisterChain-master/.github/workflows/main.yml">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/SpiShiftRegisterChain-master/.gitignore">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/SpiShiftRegisterChain-master/README.md">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/SpiShiftRegisterChain-master/keywords.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/SpiShiftRegisterChain-master/library.properties">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/SpiShiftRegisterChain-master/license.txt">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/SpiShiftRegisterChain-master/src/SpiShiftRegisterChain.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/lib/SpiShiftRegisterChain-master/src/SpiShiftRegisterChain.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/src/PowerManager.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/src/main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/src/uart_mux.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Labs/8sem/stm32/super-met/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

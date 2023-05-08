@@ -13,6 +13,7 @@ bool state_5;
 public:
 	PowerManager();
 	~PowerManager();
+	void init();
 	void enable_5();
 	void diasble_5();
 	void enable_4();
