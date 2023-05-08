@@ -20,8 +20,8 @@ gps                         1    |   1
 
 
 HardwareSerial Serial2(PA3, PA2);
-PowerManager* powerManager;
-Uart_multiplexer* uartMux;
+PowerManager powerManager;
+Uart_multiplexer uartMux;
 SIM800L *sim800l;
 Gpsneo* gps;
 
@@ -84,23 +84,8 @@ void testSim800()
       Serial1.println("End of test protocol");
 }
 
-void setup()
-{
-      Serial1.begin(115200);
-      Serial2.begin(9600);
-      powerManager = new PowerManager();
-      uartMux = new Uart_multiplexer();
-      powerManager->enable_5();
-      powerManager->enable_4();
-      sim800l = new SIM800L((Stream *)&Serial2, GSM_RST, 200, 512, (Stream *)&Serial1);
-}
-
-void loop()
-{
-      uartMux->switchDevice(SDS011);
-      testSim800();
-      while (1){};
-}
+// void testI2C(uint8_t n){
+      
 
 //  byte error, address;
 //       int nDevices;
@@ -141,3 +126,45 @@ void loop()
 //       else
 //             Serial.println("done\n");
 //      delay(1000);
+// }
+
+char latitud[11];
+char latitudHemisphere[3];
+char longitud[11];
+char longitudMeridiano[3];
+
+void testGps(){
+    gps->getDataGPRMC(latitud,
+                     latitudHemisphere,
+                     longitud,
+                     longitudMeridiano);
+
+    Serial.println("fuck gps");
+    Serial.println(latitud);
+    Serial.println(latitudHemisphere);
+    Serial.println(longitud);
+    Serial.println(longitudMeridiano);
+}
+
+void setup()
+{
+      Serial1.begin(115200);
+      Serial2.begin(9600);
+      powerManager.init();
+      uartMux.init();
+      powerManager.enable_5();
+      powerManager.enable_4();
+      sim800l = new SIM800L((Stream *)&Serial2, GSM_RST, 200, 512, (Stream *)&Serial1);
+      gps = new Gpsneo(MUX_RX,MUX_TX);
+
+}
+
+void loop()
+{
+      uartMux.switchDevice(GPS);
+      testGps();
+
+      while (1){};
+}
+
+

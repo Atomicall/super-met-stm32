@@ -1,0 +1,5 @@
+D:/Labs/8sem/stm32/super-met/cmake-build-debug/CMakeFiles/Production.dir
+D:/Labs/8sem/stm32/super-met/cmake-build-debug/CMakeFiles/Debug.dir
+D:/Labs/8sem/stm32/super-met/cmake-build-debug/CMakeFiles/Z_DUMMY_TARGET.dir
+D:/Labs/8sem/stm32/super-met/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Labs/8sem/stm32/super-met/cmake-build-debug/CMakeFiles/rebuild_cache.dir

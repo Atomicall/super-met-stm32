@@ -12,7 +12,7 @@
 	#define BUFFER_2 500
 	//#define DEBUG
 
-	class Gpsneo : public SoftwareSerial
+	class Gpsneo : private HardwareSerial
 	{
 		void init (int baudrate);
 		bool checksum(char * string);
@@ -28,9 +28,9 @@
 		~Gpsneo(void);
 		void getDataGPRMC(char *time,char * status,char * latitude,char *latitudHemisphere, char * longitude, char * longitudeMeridian,char * speedKnots,char * trackAngle,char * date,char * magneticVaration, char * magneticVarationOrientation);
 		void getDataGPRMC(char * latitude, char * latitudHemisphere ,char * longitude,char * longitudeMeridian);
-		void convertLongitude(char * longitude,char * returnValue); //convierte los datos de lectura que vienen por defecto , a grados. 
+		void convertLongitude(char * longitude,char * returnValue); //convierte los datos de lectura que vienen por defecto , a grados.
 		void convertLatitude(char * longitude,char * returnValue);
 		void Google(char *link);
 		void getDataGPGSA();
 	};
-#endif 
+#endif

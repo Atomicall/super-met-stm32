@@ -31,7 +31,7 @@ int indexOf(char * string,const __FlashStringHelper * search){
 	int pos =  int(strstr_P(string,(const char*)search)-string);
 	if (pos==NULL || pos<0)
 		return -1;
-	
+
 	return pos;
 
 }
@@ -41,8 +41,8 @@ int  indexOf(char * string,char * search,int offset){
 	//Serial.println("IndexOf offset->");
 
 	//if (strlen(search) > offset)
-	//	return -1; //if the offset is greater than the string length,return -1 
-	
+	//	return -1; //if the offset is greater than the string length,return -1
+
 	int ind = int (strstr(&string[offset],search));
 	int pos = int  (ind - int(string));
 	if (pos!=NULL && pos>0)
@@ -55,7 +55,7 @@ int  indexOf(char * string,char * search){
 	int pos = int(strstr(string,search)-string);
 	if (pos==NULL || pos<0)
 		return -1;
-	
+
 	return pos;
 }
 
@@ -69,7 +69,7 @@ void split(char * string,char * separator,unsigned int position,char *dest){
 	for (int i = 0; i <= position; ++i)
 	{
 		last=end;
-		end=indexOf(string,separator,last+1);		
+		end=indexOf(string,separator,last+1);
 	}
 	int offset=end-last;
 	//char dest[offset];
@@ -83,23 +83,22 @@ void split(char * string,char * separator,unsigned int position,char *dest){
 
 //--------------------------------------------Constructors
 
-Gpsneo::Gpsneo(void) : SoftwareSerial(RX_PIN_DEFAULT,TX_PIN_DEFAULT)
-{  
+Gpsneo::Gpsneo(void) : HardwareSerial(RX_PIN_DEFAULT,TX_PIN_DEFAULT)
+{
 	init(BAUDRATE_DEFAULT);
 }
 
-Gpsneo::Gpsneo(uint8_t rx, uint8_t tx) : SoftwareSerial(rx,tx)
-{  
+Gpsneo::Gpsneo(uint8_t rx, uint8_t tx) : HardwareSerial(rx,tx)
+{
 	init(BAUDRATE_DEFAULT);
 }
 
-Gpsneo::Gpsneo(uint8_t rx, uint8_t tx,long baudrate) : SoftwareSerial(rx,tx)
-{  
+Gpsneo::Gpsneo(uint8_t rx, uint8_t tx,long baudrate) : HardwareSerial(rx,tx)
+{
 	init(baudrate);
 }
 //---------------------------------------------------------------
 Gpsneo::~Gpsneo(void){
-	Serial.println("destructor");
 
 }
 
@@ -129,8 +128,8 @@ bool Gpsneo::checksum(char * string){
 	char check[4]="";
 	i=0;
 	end++;
-	
-	// copy the checksum of the string 
+
+	// copy the checksum of the string
 	for (end; end < strlen(string)-1 ; ++end)
 	{
 
@@ -142,7 +141,7 @@ bool Gpsneo::checksum(char * string){
 	}
 	check[i]='\0';
 
-	//convert integer 'checksum' to String hex text 
+	//convert integer 'checksum' to String hex text
 	String cc = String(checksum,HEX);
 	cc.toUpperCase();
 	if (cc = check){
@@ -155,7 +154,7 @@ bool Gpsneo::checksum(char * string){
 }
 
 
-bool Gpsneo::readSerial(char * buffer){	
+bool Gpsneo::readSerial(char * buffer){
 
 	int max_lenght=BUFFER_2-1; // limit the size for reading.
 	int length=0;
@@ -165,10 +164,10 @@ bool Gpsneo::readSerial(char * buffer){
 	if (millis()>=timeout)
 		return false; // if not receive a response from the gps, return false
 
-	timeout = millis()+600; // 600ms for read data from serial port. 
+	timeout = millis()+600; // 600ms for read data from serial port.
 	while (  millis()<timeout && length<max_lenght){
 		if (this->available()){
-		buffer[length]=char(this->read());	
+		buffer[length]=char(this->read());
 		length++;
 		}
 	}
@@ -179,7 +178,7 @@ bool Gpsneo::readSerial(char * buffer){
 
 
 char *  Gpsneo::getDataRaw(const __FlashStringHelper * look,char * buffer){
-	/*parameter look can be = 
+	/*parameter look can be =
    GPBOD - Bearing, origin to destination
    GPBWC - Bearing and distance to waypoint, great circle
    GPGGA - Global Positioning System Fix Data
@@ -208,6 +207,9 @@ char *  Gpsneo::getDataRaw(const __FlashStringHelper * look,char * buffer){
 	bool error;
 	while (fail==true && attemps<2){
 		if (readSerial(buffer)==false){
+#ifdef DEBUG
+        Serial.println("Fucked up in Gpsneo::getDataRaw(const __FlashStringHelper * look,char * buffer)");
+#endif
 			break;
 		}
 		attemps++;
@@ -232,7 +234,7 @@ void Gpsneo::getDataGPRMC(char * latitude, char * latitudHemisphere ,char * long
 	x[1]='\0';
 	getDataGPRMC(&x[0],&x[0],latitude,latitudHemisphere,longitude,longitudeMeridian,&x[0],&x[0],&x[0],&x[0],&x[0]);
 	return;
-	
+
 }
 
 void Gpsneo::getDataGPRMC(char *time,char * status,char * latitude,char *latitudHemisphere, char * longitude, char * longitudeMeridian,char * speedKnots,char * trackAngle,char * date,char * magneticVaration,char * magneticVarationOrientation){
@@ -243,7 +245,7 @@ void Gpsneo::getDataGPRMC(char *time,char * status,char * latitude,char *latitud
 	char * string;
 	string = &buffer[BUFFER_2];
 
-	string=getDataRaw(F("GPRMC"),buffer);	
+	string=getDataRaw(F("GPRMC"),buffer);
 	#ifdef DEBUG
 		Serial.println(string);
 	#endif
@@ -298,12 +300,12 @@ void Gpsneo::convertLatitude(char * latitude,char * returnValue){
 	int dot = indexOf(latitude,F("."));	//busco la posicion del punto
 	if (dot!=-1){
 		char div[10]="";
-		substring(div,latitude,dot-2,strlen(latitude));	
+		substring(div,latitude,dot-2,strlen(latitude));
 		float  mm=atof(div);
   		mm = mm/60;
 		substring(div,latitude,dot-4,2);
 		float  dd=atof(div);
-		dd=dd+mm;	
+		dd=dd+mm;
 		dtostrf(dd, 3, 7, returnValue);
 	#ifdef DEBUG
 		Serial.println(F("EndconvLat"));
@@ -328,12 +330,12 @@ void Gpsneo::convertLongitude(char * longitude,char * returnValue){
 	int dot = indexOf(longitude,F("."));	//busco la posicion del punto
 	if (dot!=-1){
 		char div[10]="";
-		substring(div,longitude,dot-2,strlen(longitude));	
+		substring(div,longitude,dot-2,strlen(longitude));
 		float  mm=atof(div);
   		mm = mm/60;
 		substring(div,longitude,dot-5,3);
 		float  dd=atof(div);
-		dd=dd+mm;	
+		dd=dd+mm;
 		dtostrf(dd, 3, 7, returnValue);
 	#ifdef DEBUG
 		Serial.println(F("EndconvLon"));
@@ -349,7 +351,7 @@ void Gpsneo::convertLongitude(char * longitude,char * returnValue){
 
 void Gpsneo::Google(char *link){
 	/*
-		Return a link of google Maps. 
+		Return a link of google Maps.
 
 		http://www.google.com/maps/place/Latitud,Longitud
 	*/
@@ -387,7 +389,7 @@ void Gpsneo::getDataGPGSA(){
 		string=getDataRaw(F("GPGSA"),buffer);
 
 		if (checksum(string)){
-			Serial.println(F("checksum OK---> "));
+		//	Serial.println(F("checksum OK---> "));
 		//	Serial.println(string);
 		}
 	#endif

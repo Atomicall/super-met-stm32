@@ -1,0 +1,5 @@
+D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/CMakeFiles/Production.dir
+D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/CMakeFiles/Debug.dir
+D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/CMakeFiles/Z_DUMMY_TARGET.dir
+D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/CMakeFiles/edit_cache.dir
+D:/Labs/8sem/stm32/super-met/cmake-build-bluepill_f103c8/CMakeFiles/rebuild_cache.dir

@@ -2,12 +2,12 @@
 
 Uart_multiplexer::Uart_multiplexer()
 {
-    initPins();
-    switchDevice(SIM800);
+
 }
 
 Uart_multiplexer::~Uart_multiplexer()
 {
+
 }
 
 CONNECTED_DEVICE Uart_multiplexer::getCurrentlySelecteDevice()
@@ -35,8 +35,8 @@ void Uart_multiplexer::switchDevice(CONNECTED_DEVICE switchTo)
     }
     case SDS011:
     {
-        s0 = 1;
-        s1 = 0;
+        s0 = 0;
+        s1 = 1;
         current_device = SDS011;
         break;
     }
@@ -46,9 +46,8 @@ void Uart_multiplexer::switchDevice(CONNECTED_DEVICE switchTo)
         Serial.write("Fuck while: switch uart mux with device" + switchTo);
         break;
     }
-
-    // delay?
     }
+    Serial.printf("mux s0 %d s1 %d\n", s0, s1);
     digitalWrite(MUX_S0, s0);
     digitalWrite(MUX_S1, s1);
 }

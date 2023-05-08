@@ -1,0 +1,2465 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Z_DUMMY_TARGET"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"CMakeListsPrivate.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 49,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 52,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 55,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 57,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 58,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 59,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 61,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 62,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 63,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 64,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 65,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 66,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 68,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 69,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 70,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 71,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 72,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 73,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 74,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 75,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 76,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 77,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 78,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 80,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 81,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 82,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 83,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 84,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 85,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 86,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu++14 -fno-threadsafe-statics -fno-rtti -fno-exceptions -fno-use-cxa-atexit -mcpu=cortex-m3 -mthumb -Os -ffunction-sections -fdata-sections -nostdlib --param max-inline-insns-single=500 -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ARDUINO=10808"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ARDUINO_ARCH_STM32"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ARDUINO_BLUEPILL_F103C8"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "BOARD_NAME=\"BLUEPILL_F103C8\""
+				},
+				{
+					"backtrace" : 8,
+					"define" : "HAL_UART_MODULE_ENABLED"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "NDEBUG"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "PLATFORMIO=60106"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "STM32F1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "STM32F1xx"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "VARIANT_H=\"variant_PILL_F103Cx.h\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 16,
+					"path" : "D:/Labs/8sem/stm32/super-met/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/Labs/8sem/stm32/super-met/src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/Wire/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/src"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "D:/Labs/8sem/stm32/super-met/lib/GPS-neo-6m-master"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/SoftwareSerial/src"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/avr"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/LL"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/OpenAMP"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/hid"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/cdc"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F1xx_HAL_Driver/Src"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/STM32F1xx"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Src"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/open-amp/lib/include"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/libmetal/lib/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/virtual_driver"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-cmsis/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 40,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/gcc"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-cmsis/CMSIS/DSP/Include"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-cmsis/CMSIS/DSP/PrivateInclude"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino"
+				},
+				{
+					"backtrace" : 45,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/variants/STM32F1xx/F103C8T_F103CB(T-U)"
+				},
+				{
+					"backtrace" : 46,
+					"path" : "D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/src"
+				},
+				{
+					"backtrace" : 48,
+					"path" : "D:/Labs/8sem/stm32/super-met/lib/SpiShiftRegisterChain-master/src"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/CMSIS_DSP/src"
+				},
+				{
+					"backtrace" : 50,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/EEPROM/src"
+				},
+				{
+					"backtrace" : 51,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/IWatchdog/src"
+				},
+				{
+					"backtrace" : 52,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/Keyboard/src"
+				},
+				{
+					"backtrace" : 53,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/Mouse/src"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/RGB_LED_TLC59731/src"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/SPI/src"
+				},
+				{
+					"backtrace" : 56,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/Servo/src"
+				},
+				{
+					"backtrace" : 57,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/src"
+				},
+				{
+					"backtrace" : 58,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/SubGhz/src"
+				},
+				{
+					"backtrace" : 59,
+					"path" : "C:/Users/vlad/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "C:/Users/vlad/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1/arm-none-eabi"
+				},
+				{
+					"backtrace" : 61,
+					"path" : "C:/Users/vlad/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include"
+				},
+				{
+					"backtrace" : 62,
+					"path" : "C:/Users/vlad/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include-fixed"
+				},
+				{
+					"backtrace" : 63,
+					"path" : "C:/Users/vlad/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				5,
+				36,
+				51,
+				53,
+				69,
+				77,
+				79,
+				80,
+				81
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu11 -mcpu=cortex-m3 -mthumb -Os -ffunction-sections -fdata-sections -nostdlib --param max-inline-insns-single=500 -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ARDUINO=10808"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ARDUINO_ARCH_STM32"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ARDUINO_BLUEPILL_F103C8"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "BOARD_NAME=\"BLUEPILL_F103C8\""
+				},
+				{
+					"backtrace" : 8,
+					"define" : "HAL_UART_MODULE_ENABLED"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "NDEBUG"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "PLATFORMIO=60106"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "STM32F1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "STM32F1xx"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "VARIANT_H=\"variant_PILL_F103Cx.h\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 16,
+					"path" : "D:/Labs/8sem/stm32/super-met/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "D:/Labs/8sem/stm32/super-met/src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/Wire/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "D:/Labs/8sem/stm32/super-met/lib/Arduino-SIM800L-driver-master/src"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "D:/Labs/8sem/stm32/super-met/lib/GPS-neo-6m-master"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/SoftwareSerial/src"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "D:/Labs/8sem/stm32/super-met/.pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/avr"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/LL"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/OpenAMP"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/hid"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32/usb/cdc"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F1xx_HAL_Driver/Src"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/STM32F1xx"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Src"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/open-amp/lib/include"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/libmetal/lib/include"
+				},
+				{
+					"backtrace" : 38,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/virtual_driver"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-cmsis/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 40,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/gcc"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-cmsis/CMSIS/DSP/Include"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-cmsis/CMSIS/DSP/PrivateInclude"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/cores/arduino"
+				},
+				{
+					"backtrace" : 45,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/variants/STM32F1xx/F103C8T_F103CB(T-U)"
+				},
+				{
+					"backtrace" : 46,
+					"path" : "D:/Labs/8sem/stm32/super-met/lib/ADS1X15-master"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "D:/Labs/8sem/stm32/super-met/lib/Nova_SDS011-master/src"
+				},
+				{
+					"backtrace" : 48,
+					"path" : "D:/Labs/8sem/stm32/super-met/lib/SpiShiftRegisterChain-master/src"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/CMSIS_DSP/src"
+				},
+				{
+					"backtrace" : 50,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/EEPROM/src"
+				},
+				{
+					"backtrace" : 51,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/IWatchdog/src"
+				},
+				{
+					"backtrace" : 52,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/Keyboard/src"
+				},
+				{
+					"backtrace" : 53,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/Mouse/src"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/RGB_LED_TLC59731/src"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/SPI/src"
+				},
+				{
+					"backtrace" : 56,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/Servo/src"
+				},
+				{
+					"backtrace" : 57,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/src"
+				},
+				{
+					"backtrace" : 58,
+					"path" : "C:/Users/vlad/.platformio/packages/framework-arduinoststm32/libraries/SubGhz/src"
+				},
+				{
+					"backtrace" : 59,
+					"path" : "C:/Users/vlad/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1"
+				},
+				{
+					"backtrace" : 60,
+					"path" : "C:/Users/vlad/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/9.2.1/arm-none-eabi"
+				},
+				{
+					"backtrace" : 61,
+					"path" : "C:/Users/vlad/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include"
+				},
+				{
+					"backtrace" : 62,
+					"path" : "C:/Users/vlad/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/9.2.1/include-fixed"
+				},
+				{
+					"backtrace" : 63,
+					"path" : "C:/Users/vlad/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				103,
+				106,
+				110,
+				111,
+				113,
+				114,
+				117,
+				119,
+				120,
+				122,
+				125,
+				126,
+				129,
+				131,
+				132,
+				135,
+				137,
+				138,
+				140,
+				143,
+				144,
+				147,
+				149,
+				151,
+				154,
+				157,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				170,
+				171,
+				192,
+				193,
+				196,
+				197,
+				198,
+				201,
+				203,
+				209,
+				213,
+				215,
+				216
+			]
+		}
+	],
+	"id" : "Z_DUMMY_TARGET::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=gnu++14 -fno-threadsafe-statics -fno-rtti -fno-exceptions -fno-use-cxa-atexit -mcpu=cortex-m3 -mthumb -Os -ffunction-sections -fdata-sections -nostdlib --param max-inline-insns-single=500",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Z_DUMMY_TARGET",
+	"nameOnDisk" : "Z_DUMMY_TARGET",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				49,
+				50,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				65,
+				66,
+				67,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				153,
+				156,
+				159,
+				166,
+				168,
+				169,
+				188,
+				194,
+				195,
+				225
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				5,
+				36,
+				51,
+				53,
+				69,
+				77,
+				79,
+				80,
+				81,
+				103,
+				106,
+				110,
+				111,
+				113,
+				114,
+				117,
+				119,
+				120,
+				122,
+				125,
+				126,
+				129,
+				131,
+				132,
+				135,
+				137,
+				138,
+				140,
+				143,
+				144,
+				147,
+				149,
+				151,
+				154,
+				157,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				170,
+				171,
+				192,
+				193,
+				196,
+				197,
+				198,
+				201,
+				203,
+				209,
+				213,
+				215,
+				216
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				6,
+				52,
+				54,
+				68,
+				70,
+				78,
+				91,
+				92,
+				104,
+				105,
+				107,
+				108,
+				109,
+				112,
+				115,
+				116,
+				118,
+				121,
+				123,
+				124,
+				127,
+				128,
+				130,
+				133,
+				134,
+				136,
+				139,
+				141,
+				142,
+				145,
+				146,
+				148,
+				150,
+				152,
+				155,
+				158,
+				167,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				189,
+				190,
+				191,
+				199,
+				200,
+				202,
+				204,
+				205,
+				206,
+				207,
+				208,
+				210,
+				211,
+				212,
+				214,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				46,
+				47,
+				48,
+				64
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/.arduino-ci.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/.github/FUNDING.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/.github/workflows/arduino-lint.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/.github/workflows/arduino_test_runner.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/.github/workflows/jsoncheck.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/ADS1X15-master/ADS1X15.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/ADS1X15.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/CHANGELOG.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_1114_four/ADS_1114_four.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_1114_two_continuous/ADS_1114_two_continuous.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_RP2040_WIRE1/.arduino-ci.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_RP2040_WIRE1/ADS_RP2040_WIRE1.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_async_16_channel/ADS_async_16_channel.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_async_8_channel/ADS_async_8_channel.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_async_differential/ADS_async_differential.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_continuous/ADS_continuous.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_continuous_3_channel/ADS_continuous_3_channel.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_continuous_4_channel/ADS_continuous_4_channel.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_continuous_8_channel/ADS_continuous_8_channel.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_continuous_differential/ADS_continuous_differential.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_differential/ADS_differential.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_high_speed_differential/ADS_high_speed_differential.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_minimum/ADS_minimum.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_performance/ADS_performance.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_pointerToFunction/.arduino-ci.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_pointerToFunction/ADS_pointerToFunction.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_read/ADS_read.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_read_RDY/ADS_read_RDY.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_read_async/ADS_read_async.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_read_async_rdy/ADS_read_async_rdy.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_read_comparator_1/ADS_read_comparator_1.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/examples/ADS_setWireClock/ADS_setWireClock.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/library.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/ADS1X15-master/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/ADS1X15-master/test/unit_test_001.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Arduino-SIM800L-driver-master/.gitignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Arduino-SIM800L-driver-master/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Arduino-SIM800L-driver-master/examples/BasicTest_HardwareSerial/BasicTest_HardwareSerial.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Arduino-SIM800L-driver-master/examples/BasicTest_SoftSerial/BasicTest_SoftSerial.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Arduino-SIM800L-driver-master/examples/BasicTest_SoftSerial/sketch.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Arduino-SIM800L-driver-master/examples/HTTPS_GET_HardwareSerial/HTTPS_GET_HardwareSerial.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Arduino-SIM800L-driver-master/examples/HTTPS_GET_SoftSerial/HTTPS_GET_SoftSerial.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Arduino-SIM800L-driver-master/examples/HTTPS_POST_HardwareSerial/HTTPS_POST_HardwareSerial.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Arduino-SIM800L-driver-master/examples/HTTPS_POST_SoftSerial/HTTPS_POST_SoftSerial.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Arduino-SIM800L-driver-master/extras/SIM800 Series_AT Command Manual_V1.09.pdf",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Arduino-SIM800L-driver-master/extras/SIM800 Series_IP_Application Note_V1.02.pdf",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Arduino-SIM800L-driver-master/extras/SIM800 Series_SSL_Application Note_V1.00.pdf",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Arduino-SIM800L-driver-master/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Arduino-SIM800L-driver-master/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Arduino-SIM800L-driver-master/src/SIM800L.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Arduino-SIM800L-driver-master/src/SIM800L.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/GPS-neo-6m-master/Gpsneo.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/GPS-neo-6m-master/Gpsneo.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/GPS-neo-6m-master/examples/google/google.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/GPS-neo-6m-master/examples/minimumRecommended/minimumRecommended.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/GPS-neo-6m-master/examples/minimumRecommendedFull/minimumRecommendedFull.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/GPS-neo-6m-master/readme.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Nova_SDS011-master/.gitattributes",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Nova_SDS011-master/.vscode/arduino.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Nova_SDS011-master/.vscode/c_cpp_properties.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Nova_SDS011-master/LICENSE.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Nova_SDS011-master/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Nova_SDS011-master/docs/Laser_Dust_Sensor_Control_Protocol_V1.3.pdf",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Nova_SDS011-master/examples/NovaSDS011/NovaSDS011.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Nova_SDS011-master/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Nova_SDS011-master/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Nova_SDS011-master/src/Commands.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/Nova_SDS011-master/src/NovaSDS011.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/Nova_SDS011-master/src/NovaSDS011.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/SpiShiftRegisterChain-master/.github/workflows/main.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/SpiShiftRegisterChain-master/.gitignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/SpiShiftRegisterChain-master/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/SpiShiftRegisterChain-master/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/SpiShiftRegisterChain-master/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/SpiShiftRegisterChain-master/license.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/SpiShiftRegisterChain-master/src/SpiShiftRegisterChain.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/SpiShiftRegisterChain-master/src/SpiShiftRegisterChain.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/PowerManager.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/uart_mux.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/.editorconfig",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/.gitattributes",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/.github/workflows/Continuous-Integration.yml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/.gitignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/.piopm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/AnalogRead_DigitalRead/AnalogRead_DigitalRead.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/Blink_AnalogRead/Blink_AnalogRead.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/CMSIS-RTOSv2/Blinky/Blinky.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/CMSIS-RTOSv2/Blinky/STM32FreeRTOSConfig_extra.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/CMSIS-RTOSv2/frBlink/STM32FreeRTOSConfig_extra.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/CMSIS-RTOSv2/frBlink/frBlink.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/frBlink/frBlink.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/frBlinkPrint/frBlinkPrint.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/frContextTime/frContextTime.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/frFifoDataLogger/frFifoDataLogger.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/frJitter/frJitter.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/examples/frLiuLayland/frLiuLayland.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/keywords.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/library.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/library.properties",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/CMSIS_RTOS/cmsis_os.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/CMSIS_RTOS/cmsis_os.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/CMSIS_RTOS_V2/cmsis_os.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/CMSIS_RTOS_V2/cmsis_os2.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/CMSIS_RTOS_V2/cmsis_os2.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/CMSIS_RTOS_V2/freertos_mpool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/CMSIS_RTOS_V2/freertos_os2.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/Common/mpu_wrappers.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM0/port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM0/portmacro.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/non_secure/port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/non_secure/portasm.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/non_secure/portasm.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/non_secure/portmacro.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/secure/secure_context.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/secure/secure_context.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/secure/secure_context_port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/secure/secure_heap.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/secure/secure_heap.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/secure/secure_init.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/secure/secure_init.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23/secure/secure_port_macros.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23_NTZ/non_secure/port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23_NTZ/non_secure/portasm.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23_NTZ/non_secure/portasm.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM23_NTZ/non_secure/portmacro.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM3/port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM3/portmacro.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/non_secure/port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/non_secure/portasm.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/non_secure/portasm.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/non_secure/portmacro.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/secure/secure_context.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/secure/secure_context.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/secure/secure_context_port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/secure/secure_heap.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/secure/secure_heap.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/secure/secure_init.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/secure/secure_init.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33/secure/secure_port_macros.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33_NTZ/non_secure/port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM33_NTZ/non_secure/portmacro.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM3_MPU/port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM3_MPU/portmacro.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM4F/port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM4_MPU/port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM4_MPU/portmacro.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM7/ReadMe.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM7/r0p1/port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM7/r0p1/portmacro.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM7_MPU/ReadMe.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM7_MPU/r0p1/port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/GCC/ARM_CM7_MPU/r0p1/portmacro.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/MemMang/ReadMe.url",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/MemMang/heap_1.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/MemMang/heap_2.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/MemMang/heap_3.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/MemMang/heap_4.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/MemMang/heap_5.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/MemMang/heap_useNewlib_ST.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/portable/readme.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/History.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/README.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/croutine.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/event_groups.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/FreeRTOS.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/FreeRTOSConfig_template.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/StackMacros.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/atomic.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/croutine.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/deprecated_definitions.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/event_groups.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/list.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/message_buffer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/mpu_prototypes.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/mpu_wrappers.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/portable.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/projdefs.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/queue.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/semphr.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/stack_macros.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/stdint.readme",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/stream_buffer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/task.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/include/timers.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/list.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/queue.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/readme.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/st_readme.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/stream_buffer.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/tasks.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOS/Source/timers.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOSConfig.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/FreeRTOSConfig_Default.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/STM32FreeRTOS.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/STM32FreeRTOS.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/cmsis_os.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/cmsis_os.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/croutine.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/event_groups.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/freertos_mpool.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/freertos_os2.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/heap.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/list.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/message_buffer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/mpu_prototypes.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/mpu_wrappers.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/mpu_wrappers.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/port.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/portasm.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/portasm.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/portmacro.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/queue.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/semphr.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/stack_macros.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/stream_buffer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/task.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/STM32duino FreeRTOS/src/timers.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/bluepill_f103c8/integrity.dat",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
