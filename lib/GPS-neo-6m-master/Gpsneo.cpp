@@ -1,11 +1,4 @@
-
-#include "Arduino.h"
 #include "Gpsneo.h"
-#ifdef ESP8266
-#include <pgmspace.h>
-#else //ESP8266
-#include <avr/pgmspace.h>
-#endif  //ESP8266
 
 
 const char string_0[] PROGMEM = "http://www.google.com/maps/place/";
@@ -23,8 +16,6 @@ void substring(char * dest,char *string,int start,int end){
 	}
 
 //----------------------------------------------------
-
-
 
 // ------------ SEARCH FOR A STRING 
 int indexOf(char * string,const __FlashStringHelper * search){

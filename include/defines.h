@@ -1,3 +1,5 @@
+#include <stdint.h>
+#include <string.h>
 #define EN_4_2 PB14
 #define EN_5_2 PB13
 #define GSM_RST PB15

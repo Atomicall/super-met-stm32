@@ -1,6 +1,11 @@
 #ifndef Gpsneo_h
 	#define Gpsneo_h
-	#include <SoftwareSerial.h>
+#include "Arduino.h"
+#ifdef ESP8266
+#include <pgmspace.h>
+#else //ESP8266
+#include <avr/pgmspace.h>
+#endif  //ESP8266
 	//  UNCOMMENT WHAT YOU ARE GOING TO USE
 	//#define GPGSA
 
@@ -18,8 +23,6 @@
 		bool checksum(char * string);
 		bool readSerial(char * buffer);
 		char * getDataRaw(const __FlashStringHelper * look,char * buffer);
-
-
 
 	public:
 		Gpsneo(void);

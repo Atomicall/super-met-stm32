@@ -20,6 +20,16 @@ public: // functions
 	void setDataToZeros();
 	void toggleBit(unsigned int bitNumber, bool writeData = true);
 	void writeData() const;
+    uint8_t geByteArrayLength(){
+        return _dataLengthBytes;
+    }
+    byte* getDataByteArray(){
+        return _dataArray;
+    }
+    // возможна утечка памяти, записывать только указатель, который получили из get метода
+    void setDataByteArray(byte* newArr){
+        _dataArray = newArr;
+    };
 
 private: // functions
 	void allocateMemory();
